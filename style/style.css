@@ -1,0 +1,89 @@
+@import url('../scss/_variables.scss');
+
+@font-face {
+    font-family: Avenge;
+    src: url("../fonts/avenge.ttf") format('truetype');
+}
+
+#header {
+    font-family: Avenge;
+    color: gray;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+
+#headerText {
+    font-size: 75px;
+}
+
+#navbar {
+    font-family: Avenge;
+    color: gray;
+    font-size: 35px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#toCount:hover {
+    color: blue;
+}
+
+#toWhat:hover {
+    color: blue;
+}
+
+#toWhyI:hover {
+    color: blue;
+}
+
+#toWhyU:hover {
+    color: blue;
+}
+
+#countdownHolder {
+    margin-top: -800px;
+    margin-right: 50px;
+    font-family: Avenge;
+    color: gray;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+#countdown {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#text {
+    margin-right: 50px;
+    font-family: Avenge;
+    color: gray;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#text p {
+    font-size: 35px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#imageLogo {
+    float: right;
+}
+
+#rdjImg {
+    float: left;
+    margin-top: 50px;
+    margin-right: 15px;
+    width: 20%;
+}
+
+#russos {
+    width: 20%;
+    float: right;
+    margin-top: 0px;
+}
