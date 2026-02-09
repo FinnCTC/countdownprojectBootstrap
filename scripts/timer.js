@@ -1,5 +1,5 @@
 /* set the date for timer end */
-var endDate = new Date("December 18, 2026 12:00:00").getTime();
+var endDate = new Date("Dec 18, 2026 12:00:00").getTime();
 
 /* update count every second */
 var x = setInterval(function() {
